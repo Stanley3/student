@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/iv_coach_photo"
+        android:layout_width="94dp"
+        android:layout_height="94dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/photo_test" />
+
+    <LinearLayout
+        android:id="@+id/ll_coach"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_coach_name"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="bottom|left"
+                android:text="刘东月"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_order_time"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="bottom|right"
+                android:text="今天还可以预约10次"
+                android:textColor="#ff8000"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_course_status"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="bottom|left"
+                android:text="科目二教练"
+                android:textColor="#555"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_edu_times"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.3"
+                android:gravity="center_horizontal|bottom"
+                android:text="累计授课：58次"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_edu_age"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="bottom|right"
+                android:text="教龄：10年"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="bottom" 
+                >
+
+                <ImageView
+                    android:id="@+id/iv_star1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/rating_show" />
+
+                <ImageView
+                    android:id="@+id/iv_star2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/rating_show" />
+
+                <ImageView
+                    android:id="@+id/iv_star3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/rating_show" />
+
+                <ImageView
+                    android:id="@+id/iv_star4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/rating" />
+
+                <ImageView
+                    android:id="@+id/iv_star5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/rating" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                 android:gravity="bottom|right" 
+                 >
+
+                <ImageView
+                    android:id="@+id/iv_online_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_offline" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

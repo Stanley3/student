@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="my_blue">#33a4e6</color>
+    <color name="my_black">#000000</color>
+    <color name="bt_background_unselected">#000000</color>
+    <color name="bt_background_selected">#2FBCF4</color>
+    <color name="footbar_normal">#00A0EE</color>
+    <color name="footbar_press">#2DBBFF</color>
+    <color name="my_white">#ffffff</color>
+    <color name="red">#ff0000</color>
+    <color name="window_background">#EBEBEB</color>
+    <color name="main_gray">#9A9A9A</color>
+    <color name="main_purple">#576B95</color>
+    <color name="main_black">#000000</color>
+    <color name="main_green">#40AA53</color>
+    
+    <color name="list_divider_color">#DADADA</color>
+    <color name="list_item_background_normal">#ffffff</color>
+    <color name="list_item_background_pressed">#F1F1F1</color>
+    <color name="myblue2">#0077bf</color>
+    <color name="myblue3">#2f9cdd</color>
+
+</resources>

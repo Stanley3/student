@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/my_white" >
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/my_blue"
+        android:gravity="center_horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/title_select_coach_text"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/bt_back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/back_selector"
+        android:gravity="bottom|center_horizontal" />
+
+    <LinearLayout
+        android:id="@+id/ll_school_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" >
+
+            <TextView
+                android:id="@+id/tv_school_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:text="商丘顺达驾校"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_subject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/tv_school_name"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:text="专业科目二模拟设备"
+                android:textColor="#000066"
+                android:textSize="10sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/tv_school_name"
+                android:layout_marginRight="2dp"
+                android:layout_toLeftOf="@id/tv_subject"
+                android:src="@drawable/icon_shebei" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/tv_car_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:text="教练车：5台"
+                android:textColor="#545454"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_coach_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/tv_car_num"
+                android:text="教练：10人"
+                android:textColor="#545454"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_distance_me"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:text="距离您现在的距离"
+                android:textColor="#0077bf"
+                android:textSize="10sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2dp"
+                android:layout_toLeftOf="@id/tv_distance_me"
+                android:src="@drawable/icon_juli" />
+
+            <TextView
+                android:id="@+id/tv_school_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_distance_me"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="地址：商丘市建设北路138号"
+                android:textColor="#545454"
+                android:textSize="11sp" />
+        </RelativeLayout>
+    </LinearLayout>
+     <LinearLayout
+        android:id="@+id/ll_order_way"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="0dp"
+        android:background="#ffffff"
+        android:gravity="center_vertical"
+        android:layout_below="@id/ll_school_info"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bt_compre_rating"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:text="@string/order_comprehensive"
+            android:textColor="@color/bt_background_unselected"
+            android:textSize="14sp" />
+        <Button
+            android:id="@+id/bt_popu_rating"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:text="@string/order_popular"
+            android:textColor="@color/bt_background_unselected"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/bt_times_rating"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:text="@string/order_times"
+            android:textColor="@color/bt_background_unselected"
+            android:textSize="14sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/bt_background_unselected"
+        android:orientation="horizontal"
+        android:layout_below="@id/ll_order_way"
+        android:weightSum="3" >
+        <ImageView
+            android:id="@+id/iv_line"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/bt_background_selected"
+            android:scaleType="matrix"
+            android:contentDescription="@string/underLine" />
+    </LinearLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/lv_coach_info"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/ll_line"
+        />
+</RelativeLayout>

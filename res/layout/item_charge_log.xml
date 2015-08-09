@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true" >
+
+        <TextView
+            android:id="@+id/tv_date_title"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical|left"
+            android:height="50dp"
+            android:padding="0dp"
+            android:textColor="#000" 
+            android:text="日期:" />
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="0dp"
+            android:layout_toRightOf="@+id/tv_date_title"
+            android:gravity="center_vertical|left"
+            android:height="50dp"
+            android:padding="0dp"
+            android:textColor="#000" 
+            android:text="暂无数据" />
+
+        <TextView
+            android:id="@+id/tv_charge"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignLeft="@+id/tv_date_title"
+            android:layout_below="@+id/tv_date_title"
+            android:gravity="center_vertical|left"
+            android:height="50dp"
+            android:padding="0dp"
+            android:textColor="#000" 
+            android:text="充值点:" />
+
+        <TextView
+            android:id="@+id/tv_charge_address"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tv_date_title"
+            android:layout_toRightOf="@+id/tv_charge"
+            android:gravity="center_vertical|left"
+            android:height="50dp"
+            android:padding="0dp"
+            android:textColor="#000" 
+            android:text="暂无数据" />
+
+        <TextView
+            android:id="@+id/tv_practise_hour"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tv_date_title"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical|left"
+            android:height="50dp"
+            android:padding="0dp"
+            android:textColor="#000" 
+            android:text="3小时" />
+
+        <TextView
+            android:id="@+id/tv_course_subject"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignTop="@+id/tv_practise_hour"
+            android:layout_below="@+id/tv_date_title"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/tv_practise_hour"
+            android:gravity="center_vertical|left"
+            android:height="50dp"
+            android:padding="0dp"
+            android:textColor="#000" 
+            android:text="科目二" />
+    </RelativeLayout>
+
+</RelativeLayout>

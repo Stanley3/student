@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+        <FrameLayout
+            android:id="@+id/fragmentRoot"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            />
+
+        <LinearLayout
+            android:id="@+id/bottomList"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/bottomItemCurrentBg1"
+                style="@style/main_bottom_item" >
+
+                <RadioButton
+                    android:id="@+id/rb_home"
+                    style="@style/footbar"
+                    android:background="@drawable/footbar_background"
+                    android:drawableTop="@drawable/index_selector"
+                    android:paddingTop="8dp"
+                    android:text="主页" />
+
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/bottomItemCurrentBg2"
+                style="@style/main_bottom_item" >
+
+                <RadioButton
+                    android:id="@+id/rb_order"
+                    style="@style/footbar"
+                    android:drawableTop="@drawable/order_selector"
+                    android:paddingTop="8dp"
+                    android:text="预约" 
+                    android:background="@drawable/footbar_background"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bottomItemCurrentBg3"
+                style="@style/main_bottom_item" >
+
+                <RadioButton
+                    android:id="@+id/rb_finance"
+                    style="@style/footbar"
+                    android:drawableTop="@drawable/finance_selector"
+                    android:paddingTop="8dp"
+                    android:text="财务" 
+                    android:background="@drawable/footbar_background"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bottomItemCurrentBg4"
+                style="@style/main_bottom_item" >
+
+                <RadioButton
+                    android:id="@+id/rb_statistics"
+                    style="@style/footbar"
+                    android:drawableTop="@drawable/statistics_selector"
+                    android:paddingTop="8dp"
+                    android:text="统计" 
+                    android:background="@drawable/footbar_background"/>
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>

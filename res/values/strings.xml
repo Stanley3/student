@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">StudentClient2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_order_text">我的预约</string>
+    <string name="title_finance_text">我的财务信息</string>
+    <string name="title_statistics_text">我的统计信息</string>
+    <string name="order_log">预约记录</string>
+    <string name="practice_log">练习记录</string>
+    <string name="cost_log">消费记录</string>
+    <string name="rechange_log">充值记录</string>
+    <string name="title_select_coach_text">选择教练</string>
+    <string name="good_evaluate">好评:</string>
+    <string name="bad_evaluate">差评</string>
+    <string name="mid_evaluate">中评</string>
+    <string name="confirm_order">确认预约</string>
+    <string name="title_two_text">学车联盟科目二</string>
+    <string name="title_three_text">学车联盟科目三</string>
+    <string name="map_text">按地图查看</string>
+    <string name="distance_scan">按距离查看</string>
+    <string name="underLine">TODO</string>
+    <string name="str_student_log">学员登录</string>
+    <string name="str_student_login">学院登录</string>
+    <string name="str_warning">注：如忘记密码请联系所在驾校更改</string>
+    <string name="my_finance_info">我的财务信息</string>
+    <string name="order_comprehensive">综合排序</string>
+    <string name="order_popular">人气优先</string>
+    <string name="order_times">常用教练</string>
+
+</resources>

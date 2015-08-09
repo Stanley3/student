@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/my_blue"
+        android:text="@string/title_statistics_text"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"/>
+    <Button 
+        android:id="@+id/bt_user_info"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/back_selector"
+        android:gravity="bottom|center_horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="尊敬的学员，在你的努力下！"
+        android:layout_below="@id/tv_title"
+        android:textSize="18sp"
+        android:layout_margin="30dp"
+        />
+    <TextView
+        android:id="@+id/tv_subject_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="科目二练习了十个学时，\n历经三十天，已经过关。\n您已经超越了90%的科目二学员！"
+        android:layout_below="@id/tv_head"
+        android:textSize="18sp"
+        android:layout_margin="30dp"
+        />
+     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="科目三练习了十个学时，\n历经三十天，尚未通过。\n请加紧努力哦！"
+        android:layout_below="@id/tv_subject_two"
+        android:textSize="18sp"
+        android:layout_margin="30dp"
+        />
+</RelativeLayout>
